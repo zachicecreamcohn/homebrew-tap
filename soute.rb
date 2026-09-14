@@ -5,21 +5,21 @@
 class Soute < Formula
   desc "Zero-friction project file versioning"
   homepage "https://github.com/zachicecreamcohn/soute"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.1.0/soute_0.1.0_darwin_amd64.tar.gz"
-      sha256 "8cf645bf0d31e724cd03a954ec3d93b1161c9c1d2e54576add3abe716d642582"
+      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.2.0/soute_0.2.0_darwin_amd64.tar.gz"
+      sha256 "466b5b7324833535b8c0c168fb6e4211b6391e44861d3c1ac9694b2be6b1aa94"
 
       define_method(:install) do
         bin.install "soute"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.1.0/soute_0.1.0_darwin_arm64.tar.gz"
-      sha256 "061d5ca1d2f23aef96e638537759e423948939cfe3e2b3a0503da64af1cad401"
+      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.2.0/soute_0.2.0_darwin_arm64.tar.gz"
+      sha256 "fa55081bc1d5dc558cfbeb179f641ed329b1063063d0363ceba185fe6bfb1ef3"
 
       define_method(:install) do
         bin.install "soute"
@@ -29,15 +29,15 @@ class Soute < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.1.0/soute_0.1.0_linux_amd64.tar.gz"
-      sha256 "758def98effc4c62f7b7512b82520c6042bb16f1e31001c2329968cbf6fab9ec"
+      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.2.0/soute_0.2.0_linux_amd64.tar.gz"
+      sha256 "8ef2e090e329ed8981238cca43be49138f025b21defc9711a2bc23c4dce5b5e7"
       define_method(:install) do
         bin.install "soute"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.1.0/soute_0.1.0_linux_arm64.tar.gz"
-      sha256 "ebb868bffaa9fb8715215afa4228f3f9c8167ba77c5eaab274bf840158d69c4a"
+      url "https://github.com/zachicecreamcohn/soute/releases/download/v0.2.0/soute_0.2.0_linux_arm64.tar.gz"
+      sha256 "01993c15c73ae1e2c089fd0897908fcf6eafe74753ed951c389e370dc35aa883"
       define_method(:install) do
         bin.install "soute"
       end
