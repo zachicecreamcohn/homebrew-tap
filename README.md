@@ -1,10 +1,10 @@
 # homebrew-tap
 
-Homebrew tap for [soute](https://github.com/zacharycohn/soute) — zero-friction
+Homebrew tap for [soute](https://github.com/zachicecreamcohn/soute) — zero-friction
 project file versioning.
 
 ```sh
-brew tap zacharycohn/homebrew-tap
+brew tap zachicecreamcohn/homebrew-tap
 brew install soute
 ```
 
