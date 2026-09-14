@@ -5,8 +5,9 @@ project file versioning.
 
 ```sh
 brew tap zachicecreamcohn/homebrew-tap
+brew trust zachicecreamcohn/tap
 brew install soute
 ```
 
-The formula (`Formula/soute.rb`) is generated and published automatically by
+The formula (`soute.rb`) is generated and published automatically by
 goreleaser on each tagged release of `soute`.
